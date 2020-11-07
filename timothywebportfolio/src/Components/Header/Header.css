@@ -1,3 +1,13 @@
+#paperContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    height: 0%;
+    width: max-content;
+    align-items: center;
+    justify-items: center;
+}
+
 #paperDiv {
     display: flex;
     flex-direction: column;
