@@ -9,6 +9,7 @@ import DescriptionIcon from '@material-ui/icons/Description';
 const useStyles = makeStyles({
     root: {
       flexGrow: 1,
+      width: "100%"
     },
   });
 
@@ -18,7 +19,7 @@ function Navbar() {
     const hello = <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fyes-google-has-a-new-logo-but-why-46976&psig=AOvVaw3kAA0dRO5wRqHCKz4JF6v0&ust=1604350092650000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICym_2b4uwCFQAAAAAdAAAAABAD" />
         return (
             <>
-              <Paper className={classes.root}>
+              <Paper className={classes.root} elevation={3}>
                 <Tabs
                     // value={value}
                     // onChange={handleChange}

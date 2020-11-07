@@ -1,0 +1,15 @@
+#paperDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+#lineOne{
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+#lineThree{
+    display: flex;
+    justify-content: center;
+}
