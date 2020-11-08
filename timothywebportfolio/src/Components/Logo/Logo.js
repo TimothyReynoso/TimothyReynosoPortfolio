@@ -10,8 +10,8 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     '& > *': {
       margin: theme.spacing(1),
-      width: theme.spacing(16),
-      height: theme.spacing(16),
+      width: theme.spacing(8),
+      height: theme.spacing(8),
     },
   },
 }));
@@ -21,7 +21,7 @@ const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <Paper elevation={3} >
+      <Paper elevation={1} >
           <img className='imageLogo' src={props.logo}/>
       </Paper>
     </div>

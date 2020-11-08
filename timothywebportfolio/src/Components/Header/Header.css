@@ -23,3 +23,15 @@
     display: flex;
     justify-content: center;
 }
+
+#lineFour{
+    padding-bottom: 3%;
+}
+
+#logoBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+}
