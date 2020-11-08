@@ -1,3 +1,13 @@
+#paperContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    height: 0%;
+    width: max-content;
+    align-items: center;
+    justify-items: center;
+}
+
 #paperDiv {
     display: flex;
     flex-direction: column;
@@ -12,4 +22,16 @@
 #lineThree{
     display: flex;
     justify-content: center;
+}
+
+#lineFour{
+    padding-bottom: 3%;
+}
+
+#logoBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
 }
