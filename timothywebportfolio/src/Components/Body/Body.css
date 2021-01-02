@@ -1,0 +1,6 @@
+.exContainer{
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
