@@ -34,17 +34,17 @@ function Experiance() {
           Web
         </Typography>
         <Typography variant="h5" component="h2">
-          Experiance
+          Experience
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          Developer
+          Developer/Engineer
         </Typography>
         <Typography variant="body2" component="p">
         · Highly experienced in building modern web applications based on React/Redux frameworks, JavaScript, Python, Django and other expertise.
             <br />
-        · knowledge of Web Services like Google Firebase.
+        · Knowledge of Web Services like Google Firebase.
             <br />
-        · Hand-on experience of unit-tests
+        · Hand-on experience implimenting unit-tests
             <br />
         · Infrastructure / DevOps experience (continuous integration setup, deploying and running applications in a test and production environment etc.)
             <br />
@@ -52,7 +52,7 @@ function Experiance() {
             <br />
         · Experience with Continuous Integration (CI) and Continuous Delivery (CD) practices.
             <br />        
-        · Thrives in a fast-paced, startup environment.
+        · Thrives in a fast-paced, startup environment, flourishes while working alone or in a team.
             <br />
         </Typography>
       </CardContent>

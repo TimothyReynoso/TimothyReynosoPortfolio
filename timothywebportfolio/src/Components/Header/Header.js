@@ -18,6 +18,9 @@ import MongoDB from '../../Photos/mongodb-logo.png'
 import ReduxJS from '../../Photos/Redux.png'
 // import  from '../../Photos/'
 
+import Typist from 'react-typist';
+import 'react-typist/dist/Typist.css'
+
 const useStyles = makeStyles((theme) => ({
     root: {
       display: 'flex',
@@ -41,16 +44,18 @@ function Header(){
             <Paper id='paperContainer' elevation={3}> 
                 <div id='paperDiv'>
                     <Typography id='lineOne' variant="h5" component="h5">
-                        Hi, my name is
+                        <Typist>
+                            Hi, my name is:
+                        </Typist>
                     </Typography>
                     <Typography id='lineTwo'variant="h2" component="h2">
-                        Timothy Reynoso
+                        Timothy K. Reynoso
                     </Typography>
                     <Typography id='lineThree' variant="h3" component="h3">
-                        I Build Things For The Web
+                        -I build things for the web-
                     </Typography>
                     <Typography id='lineFour' variant="h7" component="h7">
-                        I create quality web and software appliacations using modern techonogies and frameworks like JavaScript ES6, Python 3 & 2, React, Django, HTML 5 and CSS3
+                        I create quality web/software applications using modern technologies and frameworks such as JavaScript ES6, Python 3 & 2, React, Django, Node.js, Postgres, SQL, HTML 5 and CSS3
                     </Typography>
                     <Divider id='divider'/>
                 </div>

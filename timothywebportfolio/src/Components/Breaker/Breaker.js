@@ -9,9 +9,9 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
     '& > *': {
-      marginTop: theme.spacing(3),
+      marginTop: theme.spacing(1),
       width: theme.spacing(1000),
-      height: theme.spacing(16),
+      height: theme.spacing(13),
     },
   },
 }));
