@@ -7,13 +7,17 @@ import Body from './Components/Body/Body'
 function App() {
   return (
     <div>
-      <Container style={{ backgroundColor: '#553333', height: '100vh' }}>
-        <Navbar />
+      <Container>
+        <div className='container'>
+          <Navbar />
+        </div>
         <Header />
         <Body />
       </Container>
     </div>
   );
 }
-
+/* can also style like this
+  <Container style={{ backgroundColor: '#553333' }}>
+*/
 export default App;
